@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  homer:
+    image: b4bz/homer:latest
+    container_name: homer_dashboard
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./homer:/www/assets

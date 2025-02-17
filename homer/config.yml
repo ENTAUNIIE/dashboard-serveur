@@ -1,0 +1,15 @@
+customCss: "custom.css"
+title: "Dashboard Maison"
+subtitle: "Bienvenue sur ton serveur !"
+icon: "https://cdn-icons-png.flaticon.com/512/1828/1828765.png"
+
+links:
+  - name: Plex
+    icon: https://cdn-icons-png.flaticon.com/512/732/732228.png
+    url: http://192.168.0.86:32400
+  - name: Nextcloud
+    icon: https://cdn-icons-png.flaticon.com/512/880/880594.png
+    url: http://192.168.0.86:8081
+  - name: Freebox
+    icon: https://cdn-icons-png.flaticon.com/512/2913/2913152.png
+    url: http://mafreebox.freebox.fr
